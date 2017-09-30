@@ -4,6 +4,12 @@
   "description": "Nuxt.js project",
   "author": "silentman11 <silent.r@wp.pl>",
   "private": true,
+  "config": {
+"nuxt": {
+ "host": "0.0.0.0",
+ "port": "80"
+}
+},
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
